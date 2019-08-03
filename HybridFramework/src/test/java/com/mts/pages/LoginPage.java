@@ -14,13 +14,10 @@ public class LoginPage {
 	public LoginPage(WebDriver ldriver) {
 		
 		this.driver = ldriver;
-		
 	}
 	
 	@FindBy(name="email") WebElement email;
-	
 	@FindBy(name="password") WebElement pass;
-	
 	@FindBy(xpath="//div[@class='ui fluid large blue submit button']") WebElement loginButton;
 	
 	public void loginToCRM(String emailApp, String passwordApp) {
