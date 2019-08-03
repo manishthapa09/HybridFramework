@@ -10,9 +10,11 @@ public class LoginPage {
 
 	WebDriver driver;
 	
+	//this is new commit from Manish
 	public LoginPage(WebDriver ldriver) {
 		
 		this.driver = ldriver;
+		
 	}
 	
 	@FindBy(name="email") WebElement email;
